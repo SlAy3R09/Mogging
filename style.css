@@ -13,7 +13,7 @@ header {
     justify-content: space-between;
 }
 
-#products-grid {
+#grid-products {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
@@ -53,7 +53,7 @@ button {
 
 /* -----Cart----- */
 
-#cart-button {
+#button-cart {
     background: none;
     border: none;
     border-radius: 50%;
@@ -70,20 +70,20 @@ button {
     position: relative;
 }
 
-#cart-button img {
+#button-cart img {
     max-width: 32px;
     max-height: 32px;
 }
 
-#cart-button:hover {
+#button-cart:hover {
     background-color: rgb(170, 170, 255);
 }
 
-#cart-button.active {
+#button-cart.active {
     background-color: rgb(170, 255, 170);
 }
 
-#cart-products::before {
+#products-cart::before {
     content: '';
     border: transparent solid 16px;
     border-bottom: solid #000 16px;
@@ -93,7 +93,7 @@ button {
     z-index: -1;
 }
 
-#cart-products {
+#products-cart {
     border: 1px solid #000;
     border-radius: 0.5rem;
     background-color: #fff;
@@ -109,16 +109,16 @@ button {
     display: none; 
 }
 
-#cart-products p {
+#products-cart p {
     line-height: 2rem;
 }
 
-#cart-products p img {
+#-products p img {
     max-height: 2rem;
     max-width: 2rem;
 }
 
-#cart-products button {
+#products-cart button {
     border: 1px solid #000;
     margin: 0.5rem 0;
 }
@@ -183,7 +183,7 @@ button {
 
 /* -----Responsive----- */
 
-@media screen and (max-width: 1000px){
+@media screencart and (max-width: 1000px){
     #products-grid, #user-products-grid {
         grid-template-columns: repeat(2, 1fr);
     }

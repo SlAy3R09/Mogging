@@ -1,4 +1,4 @@
-let productsGrid = document.getElementById('products-grid');
+let productsGrid = document.getElementById('grid-products');
 let productsArray = [];
 let xhr = new XMLHttpRequest();
 let url = 'https://my-json-server.typicode.com/SlAy3R09/Mogging';
